@@ -1,4 +1,4 @@
-import { ImageBackground, Text, TouchableOpacity } from 'react-native'
+import { ImageBackground, TouchableOpacity } from 'react-native'
 import styled from 'styled-components/native'
 
 export const Container = styled.SafeAreaView`
