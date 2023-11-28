@@ -4,9 +4,9 @@ import { Platform } from 'react-native'
 export const AnimalContainer = styled.View`
   background-color: white;
   width: 100%;
-  height: 320px;
-  border-radius: 18px;
-  padding: 12px;
+  height: 300px;
+  border-radius: 24px;
+  padding: 18px;
   margin-bottom: 12px;
 
   ${Platform.select({
@@ -33,7 +33,8 @@ export const TextAndPriceContainer = styled.View`
 export const AnimalText = styled.Text`
   text-transform: capitalize;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 600;
+  color: #2b2b2e;
 `
 
 export const Price = styled.Text`

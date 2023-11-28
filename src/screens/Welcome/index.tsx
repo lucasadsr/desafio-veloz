@@ -20,12 +20,12 @@ export function Welcome() {
         style={{ width: '100%' }}
       >
         <WelcomeContainer>
-          <Title>Bem-vindo(a) ao Pet Store</Title>
+          <Title>Welcome to Pet Store</Title>
           <ButtonContainer
             activeOpacity={0.5}
             onPress={() => navigation.navigate('Home' as never)}
           >
-            <ButtonText>Encontrar novo Pet!</ButtonText>
+            <ButtonText>Find a new pet!</ButtonText>
           </ButtonContainer>
         </WelcomeContainer>
       </ImageBackgroundContainer>

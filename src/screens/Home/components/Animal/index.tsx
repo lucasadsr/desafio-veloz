@@ -38,7 +38,7 @@ export function Animal({ data }: AnimalProps) {
         source={selectImage()}
         alt={data.type}
         resizeMode="cover"
-        style={{ width: '100%', height: '75%', borderRadius: 18 }}
+        style={{ width: '100%', height: '75%', borderRadius: 8 }}
       />
       <TextAndPriceContainer>
         <AnimalText>{data.type}</AnimalText>

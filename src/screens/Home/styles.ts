@@ -6,11 +6,13 @@ export const HomeContainer = styled.SafeAreaView`
   flex: 1;
   align-items: center;
   padding: 48px 16px 0px;
-  background-color: #e0f2f7;
+  background-color: #f2f2f0;
 `
 
 export const HomeTitle = styled.Text`
   font-size: 28px;
+  color: #3f3e3f;
+  font-weight: 600;
 `
 
 export const FilterContainer = styled.View`
@@ -24,25 +26,26 @@ export const FilterContainer = styled.View`
 
 export const FilterTitle = styled.Text`
   font-size: 28px;
-  font-weight: 500;
   width: 100%;
   margin-top: 22px;
   margin-bottom: 8px;
+  color: #3f3e3f;
 `
 
 export const Filter = styled.TouchableOpacity<{ isActive: boolean }>`
   padding: 12px;
-  border-radius: 12px;
+  border-radius: 16px;
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.08);
 
   ${(props) =>
     props.isActive &&
     css`
-      background-color: #ffa500;
+      background-color: #ff9934;
     `}
 
   ${Platform.select({

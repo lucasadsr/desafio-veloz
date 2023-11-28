@@ -54,7 +54,7 @@ export function Home() {
 
   return (
     <HomeContainer>
-      <HomeTitle>Store</HomeTitle>
+      <HomeTitle>Catalog</HomeTitle>
       <FilterTitle>Sort by:</FilterTitle>
       <FilterContainer>
         <Filter

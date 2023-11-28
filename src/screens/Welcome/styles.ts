@@ -1,4 +1,4 @@
-import { ImageBackground, TouchableOpacity } from 'react-native'
+import { ImageBackground, TouchableOpacity, Platform } from 'react-native'
 import styled from 'styled-components/native'
 
 export const Container = styled.SafeAreaView`
@@ -31,14 +31,26 @@ export const WelcomeContainer = styled.View`
 `
 
 export const Title = styled.Text`
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 28px;
+  font-weight: 600;
+  color: #1c1e21;
 `
 
 export const ButtonContainer = styled(TouchableOpacity)`
   padding: 16px 18px;
   border-radius: 20px;
   background-color: #2cbbc3;
+  ${Platform.select({
+    ios: `
+      shadow-color: black;
+      shadow-offset: 0px 2px;
+      shadow-opacity: 0.3;
+      shadow-radius: 4px;
+    `,
+    android: `
+      elevation: 4;
+    `,
+  })}
 `
 
 export const ButtonText = styled.Text`
