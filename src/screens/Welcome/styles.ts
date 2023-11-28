@@ -38,10 +38,11 @@ export const Title = styled.Text`
 export const ButtonContainer = styled(TouchableOpacity)`
   padding: 16px 18px;
   border-radius: 20px;
-  background-color: lightblue;
+  background-color: #2cbbc3;
 `
 
 export const ButtonText = styled.Text`
   font-size: 18px;
   font-weight: 500;
+  color: white;
 `
