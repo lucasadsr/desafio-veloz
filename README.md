@@ -2,8 +2,10 @@
 
 Este é um app desenvolvido em React Native que permite recuperar e ordenar dados no formato JSON a partir de uma API fornecida.
 
-<img src="./public/welcome-page.jpg" height="400px" />
-<img src="./public/home-page.jpg" height="400px" />
+<div align="center">
+  <img src="./public/welcome-page.jpg" height="400px" />
+  <img src="./public/home-page.jpg" height="400px" />
+</div>
 
 ## Tecnologias utilizadas
 
@@ -11,6 +13,7 @@ Este é um app desenvolvido em React Native que permite recuperar e ordenar dado
 - Expo
 - Styled-components
 - TypeScript
+- Axios
 
 ## Descrição
 
